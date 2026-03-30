@@ -6,6 +6,7 @@
 This project is optimized for use as a private tracker. All requests flow through a user authentication function first, and then must subsequently pass torrent client whitelisting checks followed by the existence of the torrent itself on the tracker. Stats are cached locally and then written to a persistent database at a set time out.
 
 ## General Architecture
+
 ```mermaid
 graph TD
     A["GET *"] --> B["User Authentication"]
@@ -38,7 +39,8 @@ graph TD
     class A,B,C,F,G,J,K green
     class D red
     class E yellow
-    class H,I blue```
+    class H,I blue
+```
 
 ## Usage
 ```git clone [.git path]```
