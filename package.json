@@ -1,7 +1,9 @@
 {
   "name": "timberwolf",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "A private HTTP torrent tracker written in Node.js",
+  "license": "MIT",
+  "author": "Anthony Franco",
   "scripts": {
     "start": "node app.js",
     "lint": "eslint . --fix"
