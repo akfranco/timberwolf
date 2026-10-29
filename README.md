@@ -59,3 +59,6 @@ and it should begin tracking as expected.
 Fork this project and create a pull request.
 
 Enjoy!
+
+## License
+This project is licensed under the MIT License — see the [LICENSE.md](LICENSE.md) file for details.
